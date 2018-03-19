@@ -73,8 +73,8 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="home.html">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="contact.html">Contact</a>
@@ -82,19 +82,26 @@
       <li class="nav-item">
         <a class="nav-link" href="about.html">About Me</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="bookings.html">Bookings</a>
+      <li class="nav-item active">
+        <a class="nav-link" href="bookings.html">Bookings <span class="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>
 </nav>
 
 <div class="container-fluid">
-  <h1 class="text-center mt-4">High Quality Teaching, </h1> <h1 class="text-center mt-3">for the Right Price</h1>
-  <br>
-  <div class="but mt-4">
-    <button type="button" class="btn btn-light btn-lg"><a class="but-link" href="contact.html">Contact Me</a></button>
+  <h1 class="text-left mt-3">Book a time</h1>
+  <hr>
+  <div class="booking mt-4">
+    <p>Email:</p><input type="email" name="email">
   </div>
+  <div class="booking mt-4">
+    <p>Date</p>
+    <input class="mr-3" type="date" name="bday">
+    <input type="submit">
+  </div>
+  <p class="mt-4">I will see your booking and I will check if your selected booking time is appropriate.</p>
+  <p class="mt-4"><span class="star"> * </span> Your email will not be leaked to strangers.</p>
 </div>
 
 <footer class="footer">
